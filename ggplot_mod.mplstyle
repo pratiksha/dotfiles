@@ -5,9 +5,10 @@ patch.facecolor: 348ABD  # blue
 patch.edgecolor: EEEEEE
 patch.antialiased: True
 
-font.size: 10.0
+font.size: 14.0
+font.family: EB Garamond
 
-axes.facecolor: 363636
+axes.facecolor: 2b2b2b
 axes.edgecolor: white
 axes.linewidth: 0.5
 axes.grid: True
@@ -16,7 +17,7 @@ axes.labelsize: large
 axes.labelcolor: white
 axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
 
-axes.prop_cycle: cycler('color', ['ff4040', '42c6ff', 'd45eff', '83e620', 'FFFDA1', 'D0FFA1', 'FFA1F4'])
+axes.prop_cycle: cycler('color', ['ff4040', '83e620', '00f2ff', 'f93dff', 'FFFDA1', 'D0FFA1', 'FFA1F4'])
 
 xtick.color: white
 xtick.direction: out
@@ -24,11 +25,11 @@ xtick.direction: out
 ytick.color: white
 ytick.direction: out
 
-grid.color: white
+grid.color: 969696
 grid.linestyle: :
 
-figure.facecolor: 363636
-figure.edgecolor: 363636
+figure.facecolor: 2b2b2b
+figure.edgecolor: 2b2b2b
 
-savefig.facecolor: 363636
-savefig.edgecolor: 363636
+savefig.facecolor: 2b2b2b
+savefig.edgecolor: 2b2b2b
