@@ -33,3 +33,5 @@ figure.edgecolor: 2b2b2b
 
 savefig.facecolor: 2b2b2b
 savefig.edgecolor: 2b2b2b
+
+axes.unicode_minus: False
