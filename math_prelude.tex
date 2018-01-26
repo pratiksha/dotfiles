@@ -1,0 +1,56 @@
+\documentclass{article}[11pt]
+
+\usepackage{libertine}
+\usepackage{tabularx}
+\usepackage{xspace}
+\usepackage{graphicx,enumitem,fancyhdr,amsmath,amssymb,amsthm,subfig,url,hyperref,tikz,microtype,float}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\algdef{SE}[DOWHILE]{Do}{doWhile}{\algorithmicdo}[1]{\algorithmicwhile\ #1}%
+
+\usepackage{color}
+\usepackage{natbib}
+\newcommand{\tocite}{\textcolor{red}{[CITE]}\xspace}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}\xspace}
+
+%%%%% Math %%%%%%
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+
+\newcommand{\argmin}{\mathop{\mathrm{arg\,min}}}
+\newcommand{\argmax}{\mathop{\mathrm{arg\,max}}}
+
+\newcommand{\ith}{\ensuremath{^\mathrm{th}}}
+\newcommand{\slfrac}[2]{{\ensuremath{\left.#1\middle/#2\right.}}} % suggested at http://stackoverflow.com/questions/1436576/latex-force-slash-fraction-notation
+\newcommand{\given}{\ensuremath{\:\vert\:}}
+\newcommand{\expect}[1]{\ensuremath{\mathrm{\mathbf{E}}\!\left[{#1}\right]}}
+\newcommand{\expectsub}[2]{\ensuremath{\mathrm{\mathbf{E_{#1}}}\!\left[{#2}\right]}}
+\newcommand{\expecthat}[1]{\ensuremath{\mathrm{\hat{\mathbf{E}}}\!\left[{#1}\right]}}
+\newcommand{\varian}[1]{\ensuremath{\mathrm{\mathbf{Var}}\!\left[{#1}\right]}}
+\newcommand{\covarian}[2]{\ensuremath{\mathrm{\mathbf{Cov}}\!\left[{#1},{#2}\right]}}
+\newcommand{\probab}[1]{\ensuremath{\mathrm{Pr}\!\left[{#1}\right]}}
+\newcommand{\ceil}[1]{{\ensuremath{\left\lceil{#1}\right\rceil}}}
+\newcommand{\gaussian}[2]{{\ensuremath{\mathcal{N}\!\left({#1},{#2}\right)}}}
+\newcommand{\binomial}[2]{{\ensuremath{\mathit{Binom}\!\left({#1},{#2}\right)}}}
+
+\usepackage{mathtools}
+\newcommand{\defeq}{\vcentcolon=}
+\newcommand{\eqdef}{=\vcentcolon}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\F}{\mathbb{F}}
+
+\begin{document}
+
+
+
+\end{document}
